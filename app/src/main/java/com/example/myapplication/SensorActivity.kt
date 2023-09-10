@@ -28,7 +28,6 @@ class SensorActivity : Activity(), SensorEventListener {
             temperature = sensorManager.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE)
             isTemperatureSensorAvailable = true
         }else{
-        }else{
             textview.text = "Temperature Sensor is not available"
             isTemperatureSensorAvailable = false
         }
